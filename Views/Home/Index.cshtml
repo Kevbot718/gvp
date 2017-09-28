@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@{ ViewData["Title"] = "Home Page"; } </title>
+</head>
+
+<body>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+	    <ol class="carousel-indicators">
+	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	        <li data-target="#myCarousel" data-slide-to="1"></li>
+	        <li data-target="#myCarousel" data-slide-to="2"></li>
+	        <li data-target="#myCarousel" data-slide-to="3"></li>
+	    </ol>
+	    <div class="carousel-inner" role="listbox">
+	        <div class="item active">
+	            <img src="~/images/Liquid_Stranger_Austin.jpg" alt="ASP.NET" class="img-responsive" />
+	            <div class="carousel-caption" role="option">
+	                <p>
+	                    <a class="btn-carousel" href="https://bit.ly/LiquidStrangerATX">
+	                        Buy Tickets
+	                    </a>
+	                </p>
+	            </div>
+	        </div>
+			<div class="item">
+                <img src="~/images/Liquid_Stranger_Austin.jpg" alt="ASP.NET" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        <a class="btn-carousel" href="https://bit.ly/LiquidStrangerATX">
+                            Buy Tickets
+                        </a>
+                    </p>
+                </div>
+            </div>
+			<div class="item">
+                <img src="~/images/Liquid_Stranger_Austin.jpg" alt="ASP.NET" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        <a class="btn-carousel" href="https://bit.ly/LiquidStrangerATX">
+                            Buy Tickets
+                        </a>
+                    </p>
+                </div>
+            </div>
+			<div class="item">
+                <img src="~/images/Liquid_Stranger_Austin.jpg" alt="ASP.NET" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        <a class="btn-carousel" href="https://bit.ly/LiquidStrangerATX">
+                            Buy Tickets
+                        </a>
+                    </p>
+                </div>
+            </div>
+	    </div>
+	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	        <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	        <span class="sr-only">Next</span>
+	    </a>
+	</div>
+
+	<div class = "container event-container">
+		<div class="row">
+			<div class="col-sm-6 col-6 col-md-6 upcoming-events-text">
+				<h1 class="module-headline">
+				    <strong>Upcoming Events</strong>
+			    </h1>
+			</div>
+	        <!-- desktop/tablet view all events button -->
+			<div class="col-sm-6 col-6 col-md-6 all-events-button">
+			    <a href = "https://bit.ly/LiquidStrangerATX">
+		            <h2><strong>View All Events</strong></h2>
+			    </a>
+			</div>
+		</div>
+			
+		<div class="row event-row">
+			<div class = "col-sm-2 col-2 col-md-2 event-date">
+				<h3>Sat Jul 1</h3>
+			</div>
+			<div class="col-sm-4 col-4 col-md-3 event-flyer">
+	          <img src="~/images/Liquid_Stranger2.jpg" alt="ASP.NET" />
+	        </div>
+			<div class="col-sm-4 col-4 col-md-4 event-headliner">
+				<h3>Liquid Stranger</h3>
+				<h5>With Luzcid, Perkulat0r and The Widdler</h5>
+			</div>
+			<div class="event-buttons">
+				<div class="col-sm-2 col-2 col-md-1 event-button">
+					<a class="btn btn-default buy-tickets-btn" href="https://bit.ly/LiquidStrangerATX">
+		                Tickets
+		            </a>
+				</div>
+				<div class="col-sm-2 col-2 col-md-1 event-button">
+					<a class="btn btn-default more-info-btn" href="https://bit.ly/LiquidStrangerATX">
+		                Info
+		            </a>
+				</div>
+				<div class="col-sm-2 col-2 col-md-1 event-button dropdown">
+	                <a class="btn btn-default share-btn" href="">
+	                    Share
+	                </a>
+					<div class="dropdown-content">
+					    <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F257897657950606%2F%3Facontext%3D%257B%2522source%2522%253A5%252C%2522page_id_source%2522%253A779538018807256%252C%2522action_history%2522%253A[%257B%2522surface%2522%253A%2522page%2522%252C%2522mechanism%2522%253A%2522main_list%2522%252C%2522extra_data%2522%253A%2522%257B%255C%2522page_id%255C%2522%253A779538018807256%252C%255C%2522tour_id%255C%2522%253Anull%257D%2522%257D]%252C%2522has_source%2522%253Atrue%257D">Share on Facebook</a>
+						<a href="https://twitter.com/share">Share on Twitter</a>
+				    </div>
+	            </div>
+			</div>
+		</div>
+			
+		<div class="row event-row">
+            <div class = "col-sm-2 col-2 col-md-2 event-date">
+                <h3>Sat Jul 1</h3>
+            </div>
+            <div class="col-sm-4 col-4 col-md-3 event-flyer">
+              <img src="~/images/Liquid_Stranger2.jpg" alt="ASP.NET" />
+            </div>
+            <div class="col-sm-4 col-4 col-md-4 event-headliner">
+                <h3>Liquid Stranger</h3>
+                <h5>With Luzcid, Perkulat0r and The Widdler</h5>
+            </div>
+            <div class="event-buttons">
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default buy-tickets-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Tickets
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default more-info-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Info
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button dropdown">
+                    <a class="btn btn-default share-btn" href="">
+                        Share
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F257897657950606%2F%3Facontext%3D%257B%2522source%2522%253A5%252C%2522page_id_source%2522%253A779538018807256%252C%2522action_history%2522%253A[%257B%2522surface%2522%253A%2522page%2522%252C%2522mechanism%2522%253A%2522main_list%2522%252C%2522extra_data%2522%253A%2522%257B%255C%2522page_id%255C%2522%253A779538018807256%252C%255C%2522tour_id%255C%2522%253Anull%257D%2522%257D]%252C%2522has_source%2522%253Atrue%257D">Share on Facebook</a>
+                        <a href="https://twitter.com/share">Share on Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="row event-row">
+            <div class = "col-sm-2 col-2 col-md-2 event-date">
+                <h3>Sat Jul 1</h3>
+            </div>
+            <div class="col-sm-4 col-4 col-md-3 event-flyer">
+              <img src="~/images/Liquid_Stranger2.jpg" alt="ASP.NET" />
+            </div>
+            <div class="col-sm-4 col-4 col-md-4 event-headliner">
+                <h3>Liquid Stranger</h3>
+                <h5>With Luzcid, Perkulat0r and The Widdler</h5>
+            </div>
+            <div class="event-buttons">
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default buy-tickets-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Tickets
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default more-info-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Info
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button dropdown">
+                    <a class="btn btn-default share-btn" href="">
+                        Share
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F257897657950606%2F%3Facontext%3D%257B%2522source%2522%253A5%252C%2522page_id_source%2522%253A779538018807256%252C%2522action_history%2522%253A[%257B%2522surface%2522%253A%2522page%2522%252C%2522mechanism%2522%253A%2522main_list%2522%252C%2522extra_data%2522%253A%2522%257B%255C%2522page_id%255C%2522%253A779538018807256%252C%255C%2522tour_id%255C%2522%253Anull%257D%2522%257D]%252C%2522has_source%2522%253Atrue%257D">Share on Facebook</a>
+                        <a href="https://twitter.com/share">Share on Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="row event-row">
+            <div class = "col-sm-2 col-2 col-md-2 event-date">
+                <h3>Sat Jul 1</h3>
+            </div>
+            <div class="col-sm-4 col-4 col-md-3 event-flyer">
+              <img src="~/images/Liquid_Stranger2.jpg" alt="ASP.NET" />
+            </div>
+            <div class="col-sm-4 col-4 col-md-4 event-headliner">
+                <h3>Liquid Stranger</h3>
+                <h5>With Luzcid, Perkulat0r and The Widdler</h5>
+            </div>
+            <div class="event-buttons">
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default buy-tickets-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Tickets
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default more-info-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Info
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button dropdown">
+                    <a class="btn btn-default share-btn" href="">
+                        Share
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F257897657950606%2F%3Facontext%3D%257B%2522source%2522%253A5%252C%2522page_id_source%2522%253A779538018807256%252C%2522action_history%2522%253A[%257B%2522surface%2522%253A%2522page%2522%252C%2522mechanism%2522%253A%2522main_list%2522%252C%2522extra_data%2522%253A%2522%257B%255C%2522page_id%255C%2522%253A779538018807256%252C%255C%2522tour_id%255C%2522%253Anull%257D%2522%257D]%252C%2522has_source%2522%253Atrue%257D">Share on Facebook</a>
+                        <a href="https://twitter.com/share">Share on Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="row event-row">
+            <div class = "col-sm-2 col-2 col-md-2 event-date">
+                <h3>Sat Jul 1</h3>
+            </div>
+            <div class="col-sm-4 col-4 col-md-3 event-flyer">
+              <img src="~/images/Liquid_Stranger2.jpg" alt="ASP.NET" />
+            </div>
+            <div class="col-sm-4 col-4 col-md-4 event-headliner">
+                <h3>Liquid Stranger</h3>
+                <h5>With Luzcid, Perkulat0r and The Widdler</h5>
+            </div>
+            <div class="event-buttons">
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default buy-tickets-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Tickets
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default more-info-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Info
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button dropdown">
+                    <a class="btn btn-default share-btn" href="">
+                        Share
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F257897657950606%2F%3Facontext%3D%257B%2522source%2522%253A5%252C%2522page_id_source%2522%253A779538018807256%252C%2522action_history%2522%253A[%257B%2522surface%2522%253A%2522page%2522%252C%2522mechanism%2522%253A%2522main_list%2522%252C%2522extra_data%2522%253A%2522%257B%255C%2522page_id%255C%2522%253A779538018807256%252C%255C%2522tour_id%255C%2522%253Anull%257D%2522%257D]%252C%2522has_source%2522%253Atrue%257D">Share on Facebook</a>
+                        <a href="https://twitter.com/share">Share on Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="row event-row">
+            <div class = "col-sm-2 col-2 col-md-2 event-date">
+                <h3>Sat Jul 1</h3>
+            </div>
+            <div class="col-sm-4 col-4 col-md-3 event-flyer">
+              <img src="~/images/Liquid_Stranger2.jpg" alt="ASP.NET" />
+            </div>
+            <div class="col-sm-4 col-4 col-md-4 event-headliner">
+                <h3>Liquid Stranger</h3>
+                <h5>With Luzcid, Perkulat0r and The Widdler</h5>
+            </div>
+            <div class="event-buttons">
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default buy-tickets-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Tickets
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default more-info-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Info
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button dropdown">
+                    <a class="btn btn-default share-btn" href="">
+                        Share
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F257897657950606%2F%3Facontext%3D%257B%2522source%2522%253A5%252C%2522page_id_source%2522%253A779538018807256%252C%2522action_history%2522%253A[%257B%2522surface%2522%253A%2522page%2522%252C%2522mechanism%2522%253A%2522main_list%2522%252C%2522extra_data%2522%253A%2522%257B%255C%2522page_id%255C%2522%253A779538018807256%252C%255C%2522tour_id%255C%2522%253Anull%257D%2522%257D]%252C%2522has_source%2522%253Atrue%257D">Share on Facebook</a>
+                        <a href="https://twitter.com/share">Share on Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="row event-row">
+            <div class = "col-sm-2 col-2 col-md-2 event-date">
+                <h3>Sat Jul 1</h3>
+            </div>
+            <div class="col-sm-4 col-4 col-md-3 event-flyer">
+              <img src="~/images/Liquid_Stranger2.jpg" alt="ASP.NET" />
+            </div>
+            <div class="col-sm-4 col-4 col-md-4 event-headliner">
+                <h3>Liquid Stranger</h3>
+                <h5>With Luzcid, Perkulat0r and The Widdler</h5>
+            </div>
+            <div class="event-buttons">
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default buy-tickets-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Tickets
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button">
+                    <a class="btn btn-default more-info-btn" href="https://bit.ly/LiquidStrangerATX">
+                        Info
+                    </a>
+                </div>
+                <div class="col-sm-2 col-2 col-md-1 event-button dropdown">
+                    <a class="btn btn-default share-btn" href="">
+                        Share
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fevents%2F257897657950606%2F%3Facontext%3D%257B%2522source%2522%253A5%252C%2522page_id_source%2522%253A779538018807256%252C%2522action_history%2522%253A[%257B%2522surface%2522%253A%2522page%2522%252C%2522mechanism%2522%253A%2522main_list%2522%252C%2522extra_data%2522%253A%2522%257B%255C%2522page_id%255C%2522%253A779538018807256%252C%255C%2522tour_id%255C%2522%253Anull%257D%2522%257D]%252C%2522has_source%2522%253Atrue%257D">Share on Facebook</a>
+                        <a href="https://twitter.com/share">Share on Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+			
+		<!-- mobile view all events button -->
+        <p><a class="btn btn-lg mobile-view-events-btn" href="https://bit.ly/LiquidStrangerATX" role="button">View All Events</a></p>
+
+	</div>
+
+	<div class="container connect">
+		<div class = "row">
+			<div class="col-md-6">
+		        <h5 class = "rewards-program-text">
+		            <strong>Join Our Rewards Program</strong>
+		        </h5>
+				<a class="btn btn-default bottom-rewards-program-button" href="~/Home/RewardsProgram">
+					Learn More
+				</a>
+			</div>
+		    <div class="col-md-6 social-media-bottom">
+		        <h5 class="connect-text">
+		            <strong>Stay Connected</strong>
+				</h5>
+				<ul class="social-links">
+				  <li class="social-icon twitter">
+				    <a href="https://www.facebook.com/GoodVibesPresents"> <img src="~/images/Facebook-icon-purple.png" class="ico entypo-twitter"/></a>
+				  </li>
+				  <li class="social-icon facebook">
+				    <a href="https://twitter.com/GoodVibesPrsnts"><img src="~/images/Twitter-icon-purple.png" alt="ASP.NET" class="ico entypo-facebook" /></a>
+				  </li>
+				  <li class="social-icon dribbble">
+				        <a href="https://www.instagram.com/good_vibes_presents/"><img src="~/images/instagram-icon-purple.png" alt="ASP.NET" class="ico entypo-dribbble" /></a>
+				  </li>
+				<!-- <a class="" href=""><img src="~/images/youtube-icon.png" alt="ASP.NET" /></a> -->          
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
